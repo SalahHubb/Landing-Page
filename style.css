@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    flex: 1;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header,
+footer {
+    background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    background-color: orange;
+    width: 500px;
+    align-self: stretch; /* height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .text {
+    width: 430px;
+}
+.text , a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero .title {
+    font-size: 64px;
+    color: #F9FAF8;
+    font-weight: 905;
+}
+.logo {
+    font-size: 26px;
+    color: #F9FAF8;
+}
+.header-body {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+.btn {
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 6px 26px;
+    margin-top: 10px;
+}
+
+        /* info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}        
+.card {
+    width: 155px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.rect {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    height: 140px;
+}
+.info h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+          /* quote section */
+ 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}   
+.quote-container {
+    width: 830px;
+    margin: 90px auto;
+} 
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+} 
+.quote .name {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
+}
+          /* sign up section */
+ 
+.sign-up {
+    display: flex;
+    height: 300px;
+    color: white;
+} 
+.box {
+    background-color: #1566e7;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}     
+.sign-up .btn {
+    border: 1px solid white;
+    background-color: #1566e7;
+    padding: 3px 40px;
+}   
+.sign-up .call {
+    font-weight: bold;
+    font-size: 22px;
+} 
+footer{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
