@@ -1,6 +1,6 @@
 # Landing-Page
 
-A simple static landing page site
+A simple static landing page website
 
 ## Tech Stack
 
@@ -18,3 +18,4 @@ cd landing-page
 open it with live server
 
 ```
+Run on live preview
