@@ -35,7 +35,7 @@ nav {
 .image {
     background-color: orange;
     width: 500px;
-    align-self: stretch; /* height */
+    align-self: stretch; /* as a height */
     display: flex;
     justify-content: center;
     align-items: center;
